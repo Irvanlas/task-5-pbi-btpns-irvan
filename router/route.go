@@ -15,5 +15,5 @@ func main() {
 	r.PUT("/api/user/:id", usercontroller.Update)
 	r.DELETE("/api/user", usercontroller.Delete)
 
-	r.Run()
+	return route
 }
