@@ -1,8 +1,9 @@
 package route
 
 import (
+	"github.com/Irvanlas/task-5-pbi-btpns-irvan/controllers/usercontroller"
+	"github.com/Irvanlas/task-5-pbi-btpns-irvan/models"
 	
-	middleware
 )
 func main() {
 	r := gin.Default()
